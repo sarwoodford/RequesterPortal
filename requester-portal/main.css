@@ -1,1 +1,156 @@
- 
+ body{
+    display: flex;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: thin;
+    padding: 0;
+    margin: 0;
+ }
+
+ #main-body-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+ }
+
+ #header-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Portal-Header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+ }
+
+    #header-box h1{
+        font-size: 40px;
+        color: white;
+        font-weight: 400;
+    }
+
+ #buttons-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+ }
+
+.button{
+    width: 235px;
+    height: 235px;
+    color: white; 
+    border: none;
+    font-size: 25px;
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ #issue-button{
+    background-color: rgb(56,94,157); 
+    cursor: pointer;
+    box-shadow: 0px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
+    font-size: 18pt;
+}
+
+#issue-button:hover{
+      background-color: rgb(40, 70, 110);
+}
+
+ #request-button{
+    background-color: rgb(56,94,157); 
+    cursor: pointer;
+    box-shadow: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
+    font-size: 18pt;
+ }
+
+ #request-button:hover{
+   background-color: rgb(40, 70, 110);
+}
+
+ #click-here-button{
+    background-color: rgb(56,94,157); 
+    cursor: pointer;
+    box-shadow: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
+    font-size: 18pt;
+}
+
+#click-here-button:hover{
+   background-color: rgb(40, 70, 110);
+}
+
+
+ .portal-photo{
+    max-width: 235px;    
+    max-height: fit-content;
+    border-radius: 25px;;
+ }
+
+ #faq-box{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+ }
+
+ footer{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      height: 100px;
+      background-color: rgb(56,94,157);
+      color: white;
+      font-size: 20px;
+      font-weight: 400;
+ }
+
+ footer p{
+   margin: 5px;
+   font-size: 15px;
+ }
+
+ footer a{
+   color: white;
+   text-decoration: underline;
+ }
+
+ footer a:hover{
+   color: rgb(200, 200, 200);
+   text-decoration: underline;
+ }
+
+ footer a:visited{
+   color: rgb(200, 200, 200);
+   text-decoration: underline;
+ }
