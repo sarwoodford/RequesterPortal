@@ -4,6 +4,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: thin;
  }
 
  #main-body-box{
@@ -16,13 +18,31 @@
     flex-direction: column;
  }
 
+ #header-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./images/Portal-Header.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+ }
+
+    #header-box h1{
+        font-size: 40px;
+        color: rgb(222, 222, 222);;
+        font-weight: 400;
+    }
+
  #buttons-box{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     width: 100%;
-    max-width: 800px;
  }
 
 .button{
@@ -32,22 +52,29 @@
     border: none;
     font-size: 25px;
     margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
  #issue-button{
-    background-color: rgb(225,82,61); 
+    background-color: rgb(56,94,157); 
     cursor: pointer;
-    width: 200px;
-    height: 150px;
-    box-shadow: 0px;
+    box-shadow: 0px; 
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
 }
 
  #request-button{
-    background-color: rgb(0,179,136); 
+    background-color: rgb(56,94,157); 
     cursor: pointer;
-    width: 200px;
-    height: 150px;
     box-shadow: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
  }
 
 
@@ -55,15 +82,15 @@
  #click-here-button{
     background-color: rgb(56,94,157); 
     cursor: pointer;
-    width: 200px;
-    height: 150px;
     box-shadow: 0px;
+    width: 100%;
+    height: 100%;
+    border-radius: 25px;
+    color: white;
 }
 
 
  .portal-photo{
-    width: auto;
-    height: auto;
     max-width: 200px;    
     max-height: fit-content;
  }
